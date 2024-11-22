@@ -1,5 +1,5 @@
 import { Application } from "./application";
-import {getByTestId, render, screen} from '@testing-library/react'
+import {render, screen} from '@testing-library/react'
 
 describe.skip("Application Test cases", ()=>{
     test("Application renders 1", ()=>{
